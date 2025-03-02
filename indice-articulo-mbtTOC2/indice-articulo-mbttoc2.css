@@ -1,0 +1,64 @@
+/* Indice -  Tabla de contenido del articulo Blogger | Plugin V2.0  */
+.mbtTOC2{
+border: 1px solid #8e8e8e; /*Border*/
+border-radius: 5px;
+box-shadow: 0px 0px 3px 1px #ddd; /*Sombra*/
+background-color: #f1f1f1; /*Color de fondo*/
+margin: 30px auto;
+padding: 20px 10px;
+font-family: Oswald, arial;
+font-family: arial, sans-serif ;
+display: block;
+width: 100%; /*Ancho*/
+}
+.mbtTOC2 button{
+background:transparent;
+font-family:oswald, arial; font-size:22px;
+position:relative;
+outline:none;
+border:none;
+color:#055009 ; /* cafe: #520e02  */
+padding:0 0 0 15px;
+}
+.mbtTOC2 button a {
+color:#FF0313;
+padding:0px 2px;
+cursor:pointer;
+}
+.mbtTOC2 button a:hover{
+text-decoration:underline;
+}
+.mbtTOC2 button span {
+font-size:17px; margin:0px 10px;color: red;
+}
+.mbtTOC2 li{margin:3px 0; line-height: 1; }
+.mbtTOC2 li:before{color:red; }
+.mbtTOC2 li > a {
+color: #310681 ; /*Color del titulo principal negro: #000 verde: #055009 y  azul: #5611d4 */
+text-decoration:none;
+font-size:17px;
+font-weight: 600;
+}
+.mbtTOC2 li a:hover {
+text-decoration: underline;
+}
+.mbtTOC2 li li {margin:4px 0px;}
+.mbtTOC2 li li a{
+color: #040404 ;  /*     negro: #000 */
+font-size:15px;
+font-weight: 400;
+line-height: 0.8;
+}
+.mbtTOC2 .point3, .mbtTOC2 .point2{
+padding: 0px 0px 0px 24px;
+}
+.mbtTOC2 ol{counter-reset:section1;list-style:none}
+.mbtTOC2 ol ol{counter-reset:section2}
+.mbtTOC2 ol ol ol{counter-reset:section3}
+.mbtTOC2 ol ol ol ol{counter-reset:section4}
+.mbtTOC2 ol ol ol ol ol{counter-reset:section5}
+.mbtTOC2 li:before{content:counter(section1);counter-increment:section1;position:relative;padding:0 8px 0 0;font-size:18px}
+.mbtTOC2 li li:before{content:counter(section1) "." counter(section2);counter-increment:section2;font-size:14px}
+.mbtTOC2 li li li:before{content:counter(section1) "."counter(section2) "." counter(section3);counter-increment:section3}
+.mbtTOC2 li li li li:before{content:counter(section1) "."counter(section2) "."counter(section3) "." counter(section4);counter-increment:section4}
+.mbtTOC2 li li li li li:before{content:counter(section1) "."counter(section2) "."counter(section3) "." counter(section4)"." counter(section5);counter-increment:section5}

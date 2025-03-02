@@ -54,7 +54,7 @@ Author Url:   https://www.templateify.com/
 --title-color:#161618;
 --title-hover-color:#f63a3a;
 --meta-color:#979797;
---text-color:#626262;
+--text-color:#000000;
 --tag-bg:#f63a3a;
 --tag-color:#FFFFFF;
 --topbar-bg:#080809;
@@ -109,7 +109,7 @@ html.is-dark{
 --title-color:#f6f7f8;
 --title-hover-color:#f63a3a;
 --meta-color:#aaa;
---text-color:#d4d6d8;
+--text-color:#ffffff;
 --tag-bg:#f63a3a;
 --tag-color:#FFFFFF;
 --topbar-bg:#09090a;
